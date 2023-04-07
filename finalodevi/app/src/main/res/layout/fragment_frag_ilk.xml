@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00bcd4"
+    tools:context=".frag_ilk">
+
+    <TextView
+        android:id="@+id/renkR"
+        android:layout_width="67dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="180dp"
+        android:text="Red"
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/renkG"
+        android:layout_width="81dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="180dp"
+        android:text="Green"
+        android:textColor="#00FF00"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sk1" />
+
+    <TextView
+        android:id="@+id/renkB"
+        android:layout_width="67dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="180dp"
+        android:text="Blue"
+        android:textColor="#0000ff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sk2" />
+
+    <SeekBar
+        android:id="@+id/sk1"
+        style="@android:style/Widget.SeekBar"
+        android:layout_width="405dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="13dp"
+        android:max="255"
+        android:progress="1"
+        android:progressDrawable="@android:drawable/ic_media_play"
+        android:thumb="@android:drawable/btn_default_small"
+        android:thumbTint="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/renkR"
+        app:tickMarkTint="#A7FFEB" />
+
+    <SeekBar
+        android:id="@+id/sk3"
+        style="@android:style/Widget.SeekBar"
+        android:layout_width="411dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="11dp"
+        android:max="255"
+        android:progress="212"
+        android:progressDrawable="@android:drawable/ic_media_play"
+        android:thumb="@android:drawable/btn_default_small"
+        android:thumbTint="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/renkB"
+        app:tickMarkTint="#A7FFEB" />
+
+    <SeekBar
+        android:id="@+id/sk2"
+        style="@android:style/Widget.SeekBar"
+        android:layout_width="412dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:max="255"
+        android:progress="188"
+        android:progressDrawable="@android:drawable/ic_media_play"
+        android:thumb="@android:drawable/btn_default_small"
+        android:thumbTint="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/renkG"
+        app:tickMarkTint="#A7FFEB" />
+
+    <TextView
+        android:id="@+id/Mesaj"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sk3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
