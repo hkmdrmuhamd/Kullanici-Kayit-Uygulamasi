@@ -1,7 +1,6 @@
 Bu programda seekbar'ı en son konuma götürüp bırakıldıktan sonra kullanıcı griş ekranına girer.
 
-Kullanıcı giriş ekranında kullanıcı Adını ve Şifresini girdikten sonra bilgilerimi kaydet deyince uygulamayı kapatsa bile tekrar bilgilerini girmek zorunda kalmaz. Burada
-kullanıcı sistemde kayıtlı şifresinin son rakamını veya isminin son harfini de girmez otomatik olarak bir sonraki sayfaya yönlendirilir.
+Kullanıcı giriş ekranında kullanıcı Adını ve Şifresini girdikten sonra bilgilerimi kaydet deyince uygulamayı kapatsa bile tekrar bilgilerini girmek zorunda kalmaz. Burada kullanıcı sistemde kayıtlı şifresinin son rakamını veya isminin son harfini girer girmez otomatik olarak bir sonraki sayfaya yönlendirilir.
 
 Giriş yaptıktan sonra menü karşısına çıkar.
 
